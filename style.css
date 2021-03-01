@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#ffffff;
+    font-family: sans-serif
+}
+.container{
+    margin: 0;
+    padding:40px;
+    width: 35%;
+    height: 35%;
+    background-color:#ffffff;
+    
+    color: #000000;
+    text-align: center;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.logo{
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 33%;
+    height: 33%;
+}
