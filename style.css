@@ -2,15 +2,17 @@ body{
     margin: 0px;
     padding: 0px;
     background-color:#ffffff;
-    font-family: sans-serif
+    font-family: sans-serif;
 }
 .container{
     margin: 0;
-    padding:40px;
+    padding: 40px;
     width: 35%;
-    height: 35%;
+    height: 40%;
+    min-width: 200px;
+    min-height: 320px;
+
     background-color:#ffffff;
-    
     color: #000000;
     text-align: center;
     
@@ -25,6 +27,9 @@ body{
 .logo{
     border: 2px solid black;
     border-radius: 50%;
-    width: 33%;
-    height: 33%;
+    
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height: auto;
 }
